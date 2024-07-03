@@ -1,27 +1,38 @@
-# Termux Banner
-<pre>Cool Evil Eye Banner Script for Termux ;)</pre>
+Termux Banner
 
-## How to Remove ? :
+This Bash script automates the installation of essential utilities and gems on Termux.
 
-just type remove command in termux for restore old termux theme.
-<pre>
-  remove
-</pre>
+Features
 
-## Issue / Feedback :
+Updates package lists and upgrades installed packages.
+Installs utilities: figlet, toilet, cowsay, nano, ruby.
+Installs the lolcat gem for colorful terminal output.
+Displays a completion message using ASCII art and lolcat.
+Provides instructions to run another script (install.sh) after installation.
 
-<pre>
-  you can contact us through telegram username : @muhammadehsan42315
-  i would like to help you during installation of termux banner ;)
-</pre>
+Usage
 
-## Contribution :
-<pre>
-🎨 Calling All Creative Minds! Contribute to Termux-Banner Project
-  
-Are you a design enthusiast with an eye for creativity? 
-Join the Termux_Banner project and give it a fresh new look! 
-We're on a mission to elevate the visual experience of Termux users, and we need your expertise.
+Clone the repository:
 
-Let's give Termux users a reason to smile every time they open the terminal. 
-</pre>
+      git clone https://github.com/ehsan42315/Termux_Banner.git
+      cd Termux_Banner
+
+Install requirements:
+
+     pip install -r requirement.txt
+
+Make the script executable:
+
+     chmod +x t-ban.sh
+
+Run the script:
+
+    ./t-ban.sh
+
+To remove
+
+    ./remove.sh
+
+Follow the instructions:
+
+After the script completes, it will display a message indicating that the installation is complete. Follow any additional instructions provided, such as running bash t-ban.sh.
